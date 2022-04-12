@@ -5,8 +5,7 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-DATA_DIR = '/Users/nathan/baseball-book/data'
-
+DATA_DIR = "C:/Users/Justin/Desktop/ltcwbb-files/data"
 ##############
 # Loading data
 ##############
@@ -54,6 +53,10 @@ players.head()  # note: playerID not the index, even though we just set it
 players.set_index('playerID', inplace=True)
 players.head()  # now playerID is index
 
+
+
+
+###################################### Start Here **************************
 # alternate to using inplace, reassign players
 players = pd.read_csv(
     path.join(DATA_DIR, '2018-season', 'players.csv')) # players data
