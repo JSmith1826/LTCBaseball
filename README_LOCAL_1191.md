@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README
 These are the files for the book [Learn to Code with Baseball](https://codebaseball.com).
 
@@ -73,6 +72,3 @@ that I might discuss in a future update.
 Add this changelog, bundle files in an github release vs including with SendOwl.
 
 [i1]: https://github.com/nathanbraun/ltcwbb-files/issues/1
-=======
-# LTCBaseball
->>>>>>> origin
